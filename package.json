@@ -1,0 +1,17 @@
+{
+  "name": "sms-sol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sol.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/akshay-shetty/sms-solution/src/master/"
+  },
+  "author": "akshay shetty",
+  "license": "ISC"
+}
