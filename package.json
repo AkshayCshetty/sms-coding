@@ -13,5 +13,8 @@
     "url": "https://bitbucket.org/akshay-shetty/sms-solution/src/master/"
   },
   "author": "akshay shetty",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
 }
