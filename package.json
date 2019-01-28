@@ -1,20 +1,32 @@
 {
-  "name": "sms-sol",
+  "name": "sol",
   "version": "1.0.0",
-  "description": "",
-  "main": "sol.js",
+  "description": "sms coding challenge",
+  "main": "aboutme.html",
   "scripts": {
-    "start": "npm run lite",
+    "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "watch:all": "npm run lite"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cssmin": "^0.4.3",
+    "htmlmin": "0.0.7",
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "bootstrap-social": "^5.1.1",
+    "datatables.net-bs4": "^1.10.19",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9",
+    "save": "^2.3.3"
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/akshay-shetty/sms-solution/src/master/"
-  },
-  "author": "akshay shetty",
-  "license": "ISC",
-  "devDependencies": {
-    "lite-server": "^2.4.0"
+    "url": "git clone https://akshay-shetty@bitbucket.org/akshay-shetty/sms-solution.git"  
   }
 }
