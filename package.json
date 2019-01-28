@@ -7,6 +7,11 @@
     "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
+    "clean": "rimraf dist",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "usemin": "usemin sjf.html -d dist --htmlmin -o dist/sjf.html && usemin aboutme.html -d dist --htmlmin -o dist/aboutme.html && usemin index.html -d dist --htmlmin -o dist/index.html",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
+    "imagemin": "imagemin img/* -o dist/img",
     "watch:all": "npm run lite"
   },
   "author": "",
@@ -14,7 +19,10 @@
   "devDependencies": {
     "cssmin": "^0.4.3",
     "htmlmin": "0.0.7",
-    "lite-server": "^2.3.0"
+    "lite-server": "^2.3.0",
+    "rimraf": "^2.6.2",
+    "uglifyjs": "^2.4.11",
+    "usemin-cli": "^0.5.1"
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
