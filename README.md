@@ -1,3 +1,15 @@
+###Solution
+
+1. make sure git, npm and node are installed. 
+2. clone the repository : git clone https://akshay-shetty@bitbucket.org/akshay-shetty/sms-coding.git
+3. go to the cloned folder and run the command ' npm i ' 
+4. run the command ' npm start'
+5. to buil the distribution folder run command ' npm run build '  
+    all the distribution files will be available in the folder dist 
+
+
+
+
 # SMS frontend challenge
 
 ### Your mission, should you choose to accept it:
@@ -19,12 +31,6 @@ how to install and run your application.
 
 
 
-###Solution
-
-1. make sure git, npm and node are installed. 
-2. clone the repository : git clone https://akshay-shetty@bitbucket.org/akshay-shetty/sms-coding.git
-3. go to the cloned folder and run the command ' npm i ' 
-4. run the command ' npm start'
 
 
 
